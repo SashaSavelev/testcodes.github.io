@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Zodic Girl Club Questionnaire</title>
+    <link href="styles_first_html.css" rel="stylesheet" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <header class="header">
+          <h1 id="title">Zodiac girl club</h1>
+          <div class="container-head">
+            <div>
+              <img src="http://clipart-library.com/images/Bcarpayni.jpg" />
+            </div>
+            <div>
+              <p id="description">
+                Welcome to our "Zodiac girl club". Please fill out the forms
+                required to submit
+              </p>
+            </div>
+          </div>
+        </header>
+        <form id="survey-form">
+          <fieldset id="fieldset1">
+            <label id="name-label" for="name"
+              >What is your real n̸҉a̷m̷҈e̶̷?
+              <input id="name" type="text" placeholder="My r̵e̵a̸l҉ name" required
+            /></label>
+            <label id="email-label" for="email">
+              What is your email?
+              <input
+                type="email"
+                id="email"
+                placeholder="Valid email adress"
+                required
+            /></label>
+            <label id="number-label" for="number">
+              How old are you?
+              <input
+                type="number"
+                id="number"
+                placeholder="18+"
+                min="18"
+                max="180"
+                required
+            /></label>
+          </fieldset>
+          <fieldset id="fieldset2">
+            <legend>Do you trust us?</legend>
+            <label for="track" id="radi01"></label>
+            <input type="radio" name="type" id="track" value="track" /><label
+              for="track"
+              >Yes</label
+            >
+            <label for="event"></label>
+            <input type="radio" name="type" id="event" value="event" /><label
+              for="event"
+              >Y̸̵e̸҈s̶̵</label
+            >
+            <label for="havinghand" id="checkbox1">
+              Do you have both hands?<input
+                id="havinghand"
+                class="input-checkbox"
+                type="checkbox"
+                name="hands"
+                value="hads"
+            /></label>
+            <label for="havingleg" id="checkbox2">
+              Do you acknowledge Ophiuch̸̸u̸̸s existance?<input
+                id="havingleg"
+                class="input-checkbox"
+                type="checkbox"
+                name="legs"
+                value="legs"
+            /></label>
+          </fieldset>
+          <fieldset id="fieldset3">
+            What is your Zodiac sign?
+            <select id="dropdown">
+              <option value="Capricorn">Capricorn</option>
+              <option value="Aquarius">Aquarius</option>
+              <option value="Pisces">Pisces</option>
+              <option value="Aries">Aries</option>
+              <option value="Taurus">Taurus</option>
+              <option value="Gemini">Gemini</option>
+              <option value="Cancer">Cancer</option>
+              <option value="Leo">Leo</option>
+              <option value="Virgo">Virgo</option>
+              <option value="Libra">Libra</option>
+              <option value="Scorpio">Scorpio</option>
+              <option value="Ophiuchus">Ophiuchus</option>
+              <option value="Sagittarius">Sagittarius</option>
+            </select>
+            <label for="textarea"> <p>Tell us something about you</p></label>
+            <textarea
+              id="textarea"
+              class="texting"
+              placeholder="Last summer I was..."
+            ></textarea>
+          </fieldset>
+          <button id="submit" type="submit" class="submit-button">
+            Su̷b̶̶mit
+          </button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

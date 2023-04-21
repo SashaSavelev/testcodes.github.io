@@ -1,0 +1,64 @@
+body {
+  font: 14px "Fira Sans", sans-serif;
+  background-color: ghostwhite;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0px;
+  width: 20%;
+  height: 100%;
+  font-size: 1.2rem;
+  background-color: #f7c0ab;
+  border: 5px solid #e19a7f;
+}
+
+#navbar header {
+  font: italic small-caps bold 24px/2 cursive;
+  text-align: center;
+}
+
+#navbar li {
+  padding: 3px;
+  border: 1px solid #ac674e;
+  position: relative;
+  width: 100%;
+}
+
+#navbar ul {
+  padding: 2%;
+  list-style: none;
+}
+
+#navbar a {
+  display: block;
+  padding: 0;
+  color: #5f3424;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 20%;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+
+#main-doc header {
+  font: italic small-caps bold 16px/2 cursive;
+}
+
+p {
+  margin-left: 10px;
+  justify-content: space-between;
+  text-align: justify;
+  text-indent: 5%;
+}
+
+@media all and (max-width: 499px) {
+  body {
+    background-color: blue;
+  }
+}

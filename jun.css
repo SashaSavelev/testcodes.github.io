@@ -1,0 +1,56 @@
+section {
+  text-indent: 5%;
+  padding: 20px 20px;
+  background-color: #5e2915;
+}
+
+* {
+  color: #fff8f6;
+}
+
+section #tribute-info p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.people {
+  text-align: center;
+}
+
+body {
+  background-image: url("https://64.media.tumblr.com/50f2b7f58324acce20f69e70ddd98fbc/b38879ee54d391e2-48/s500x750/6f680aa93849fa3c0f7204b4a4215bb2fb9473a3.jpg");
+  font-family: Tahoma;
+  font-size: 16px;
+}
+
+h1 {
+  background-color: #4f3b28;
+  color: #d3a378;
+  padding: auto;
+
+  text-align: center;
+  justify-content: center;
+}
+
+#image {
+  width: 20%;
+  display: block;
+  height: auto;
+  float: center;
+  max-width: 100%;
+}
+
+figure {
+  font-size: 13px;
+}
+
+#frame {
+  background-color: #c98b73;
+  height: auto;
+  width: auto;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border-image: linear-gradient(#9b3623, #402a21) 30;
+  border-width: 4px;
+  border-style: solid;
+}
